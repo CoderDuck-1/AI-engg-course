@@ -1,0 +1,20 @@
+# Ignore large machine learning datasets
+*.csv
+*.json
+*.xlsx
+*.zip
+*.tar.gz
+
+# Ignore model weights and checkpoints
+*.h5
+*.pkl
+*.pt
+*.pth
+checkpoint/
+
+# Ignore local environment files and system bloat
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
